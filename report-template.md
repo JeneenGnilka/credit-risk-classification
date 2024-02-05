@@ -11,7 +11,7 @@ After importing data from the CSV, I created the labels set from the "loan_statu
 
 Machine leaning process
   Checked the balance of the labels variable using the value_counts function
-  Split the data into training and testing datasets using treain_test_split
+  Split the data into training and testing datasets using train_test_split
   Fit the model using the training data
   Saved predictions based on test data and fitted the model
   Evalueated the models performance using balanced_accuracy_score, a confusion matrix, and a classification repot
@@ -29,7 +29,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * F1-Score: Healthy Loans 1.00, High-Risk Loans 0.89
 
 
-
 * Machine Learning Model 2: Logistic Regression Model with Resampled Training Data
   * Balanced Accuracy Score: 0..993624830883812
   * Precision: Healthy Loans 1.00, High-Risk Loans 0.84
@@ -37,13 +36,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * F1-Score: Healthy Loans 1.00, High-Risk Loans 0.91
 
 
-
 ## Summary
 
-The Logistic Regression Model with Original Data is very effective at classifying Healthy Loans. It also does reasonablely well at predicting High-Risk Loans, though the precision, recall and F1-score are lower than that of the Healthy Loans.
+The Logistic Regression Model with Original Data is very effective at classifying Healthy Loans. It also does reasonably well at predicting High-Risk Loans, though the precision, recall and F1-score are lower than that of the Healthy Loans.
 
 The Logistic Regression Model with Resampled Training Data is very effective at predicting both Healthy Loans and High-Risk Loans.
 
 Though both models do equally well in predicting Healthy Loans, the second machine learning model using resampled training data is better able to predict High-Risk Loans. 
 
-I would recomend the Logistic Regression Model with Resampled Training Data due to it being better able to predict High-Risk Loans.
+I would recommend the Logistic Regression Model with Resampled Training Data due to it being better able to predict High-Risk Loans.
+
